@@ -1,15 +1,81 @@
+# =========================
+# IDEs
+# =========================
 .idea/
-
 .vscode/
+*.iml
 
-solutions/java/.idea/
-solutions/java/out/
-
-solutions/c++/.idea/
-
-solutions/c#/bin/
-solutions/c#/obj/
-
-*.py
-
+# =========================
+# OS Files
+# =========================
 .DS_Store
+Thumbs.db
+
+# =========================
+# Java
+# =========================
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+target/
+
+# Gradle
+.gradle/
+build/
+
+# IntelliJ output
+out/
+
+# =========================
+# C++
+# =========================
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dll
+*.dylib
+*.lib
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake-build-*/
+
+# =========================
+# C#
+# =========================
+bin/
+obj/
+*.user
+*.suo
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+venv/
+.venv/
+.env
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Misc
+# =========================
+coverage/
+node_modules/
