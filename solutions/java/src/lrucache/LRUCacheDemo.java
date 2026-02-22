@@ -1,5 +1,7 @@
 package lrucache;
 
+import LRUCache;
+
 public class LRUCacheDemo {
     public static void run() {
         LRUCache<String, Integer> cache = new LRUCache<>(3);

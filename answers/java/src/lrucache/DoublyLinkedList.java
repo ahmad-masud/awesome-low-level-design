@@ -23,7 +23,7 @@ public class DoublyLinkedList<K, V> {
         next.prev = prev;
     }
 
-    public Node<K, V> removeLast(Node<K, V> node) {
+    public Node<K, V> removeLast() {
         if (head.next == tail) {
             return null;
         }
